@@ -19,6 +19,9 @@ const config = {
     },
     extend: {
       colors: {
+        'college-blue': '#103d74',
+        'college-white': '#ffffff',
+        'college-black': '#000000',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -72,6 +75,10 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily: {
+        'sans': ['Inter', 'system-ui', 'sans-serif'],
+        'serif': ['Merriweather', 'Georgia', 'serif']
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
