@@ -56,7 +56,7 @@ export function Chat() {
           )}
         >
           <p className="text-lg mb-2">
-            Welcome to DYPCET College's AI Assistant. Type something and press
+            Welcome to DYPCET Colleges AI Assistant. Type something and press
             Enter to start.✧
           </p>
           <form
